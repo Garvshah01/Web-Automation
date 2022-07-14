@@ -13,6 +13,7 @@ driver.find_element(:xpath,"/html/body/div[2]/div/div/div/div/div[2]/div/form/di
 sleep(2)
 #Search
 driver.find_element(:xpath,"//*[@id='container']/div/div[1]/div[1]/div[2]/div[2]/form/div/div/input").send_keys("PUMA x 1DER Rock V2 Sneakers For Men")
+sleep(1)
 driver.find_element(:xpath,"//*[@id='container']/div/div[1]/div[1]/div[2]/div[2]/form/div/button").click
 sleep(2)
 #Select
@@ -30,6 +31,7 @@ end
 
 # driver.find_element(:xpath,"//*[@id='pincodeInputId']").send_keys("201014")
 # Select Size
+sleep(2)
 driver.find_element(:xpath,"//*[@id='swatch-4-size']/a").click
 sleep(1)
 #BUY NOW
