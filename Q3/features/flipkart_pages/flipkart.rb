@@ -31,8 +31,7 @@ class Flipkart
   end
 
   def login
-    self.
-    username = "garvshah01@gmail.com"
+    self.username = "garvshah01@gmail.com"
     self.password = "manjushah2"
     self.click
   end
