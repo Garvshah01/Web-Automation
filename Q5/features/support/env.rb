@@ -8,4 +8,5 @@ Before do |scenario|
   @browser = Selenium::WebDriver.for :chrome, capabilities: caps
   @browser.manage.window.maximize
   @browser.manage.timeouts.implicit_wait = 10
+  # @driver.system.window.maximize
 end
